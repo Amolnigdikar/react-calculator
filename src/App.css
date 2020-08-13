@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: 300px;
+  width: 450px;
+  display: inline-block;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-group button {
+  background-color: #4caf50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Float the buttons side by side */
+  justify-content: center;
+  display: inline-block;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.input-style {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: end;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn-equal {
+  margin: 10px;
+  height: 70%;
+  float: right;
+}
+
+.custom-style {
+  margin-top: 100px;
+  padding: 20px;
 }
