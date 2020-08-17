@@ -40,6 +40,15 @@ function App() {
     setValue(answer);
   };
 
+  const square = () => {
+    setValue(value * value);
+  };
+
+  const squareRoot = () => {
+    console.log("Square root clicked!");
+    setValue(Math.sqrt(value));
+  };
+
   return (
     <div className="container custom-style">
       <div className="row justify-content-center">
@@ -171,6 +180,16 @@ function App() {
         <div className="col-md-0">
           <button className="btn btn-danger" onClick={backspaceFunction}>
             C
+          </button>
+        </div>
+        <div className="col-md-0">
+          <button className="btn btn-primary" onClick={square}>
+            x^2
+          </button>
+        </div>
+        <div className="col-md-0">
+          <button className="btn btn-primary" onClick={squareRoot}>
+            sqrt
           </button>
         </div>
       </div>
